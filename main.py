@@ -7,7 +7,7 @@ ctf_flag = os.environ.get('admin_flag')
 def get_flag():
     print(request.headers)
     API_KEY = request.headers['x-api-key']
-    if API_KEY == '9b8aa04d-cdb8-455d-a06c-d973a13a4989' :
+    if API_KEY == '$API_KEY' :
         return ctf_flag
 
 
